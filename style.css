@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.header {
+  background-color: red;
+  max-width: 90rem;
+  height: 35rem;
+
+  background-image: url("/assets/image.svg");
+}
+
+.logo {
+  width: 7.8rem;
+  height: 3.8rem;
+  margin: 3.5rem 3.2rem;
+}
+
+.title {
+  color: #fff;
+  width: 33.5rem;
+  height: 7rem;
+  margin: 2.5rem 9.8rem;
+  text-align: center;
+  letter-spacing: 0%;
+  line-height: 128%;
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+
+.subtitle {
+  color: #fff;
+  width: 536px;
+  height: 112px;
+  margin: 2.5rem 172px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+/* Responsive Styles max-width 767px*/
+
+@media (max-width: 767px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .logo {
+    width: 6rem;
+    height: 6rem;
+    margin: 2.5rem 2rem;
+  }
+
+  .title {
+    width: 100%;
+    margin: 1.5rem auto;
+    font-size: 2rem;
+    text-align: center;
+    height: 11rem;
+  }
+
+  .subtitle {
+    width: 100%;
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+    text-align: center;
+    height: 11rem;
+  }
+}
