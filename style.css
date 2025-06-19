@@ -19,14 +19,15 @@ body {
   max-width: 50rem;
   margin: 0 auto;
   max-width: 90rem;
+
 }
 
 .header {
-  background-color: red;
+  
   max-width: 90rem;
   height: 35rem;
 
-  background-image: url("/assets/image.svg");
+  background-image: url("./assets/image.svg");
 }
 
 .logo {
