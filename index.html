@@ -12,7 +12,7 @@
       <header class="header">
         <div class="logo">
           <a href="https://www.escoladnc.com.br"
-            ><img src="assets/image-14.svg" alt="logo"
+            ><img src="assets/image-14.svg" alt="image-logo"
           /></a>
         </div>
         <div class="text-head">
@@ -35,12 +35,12 @@
         </div>
 
         <div class="block-1">
-          <img src="./assets/hour.svg" alt="certificate" />
+          <img src="./assets/hour.svg" alt="hour" />
           <p class="text-block">4 horas de conteúdo</p>
         </div>
 
         <div class="block-1">
-          <img src="./assets/course.svg" alt="certificate" />
+          <img src="./assets/course.svg" alt="course" />
           <p class="text-block">Aulas online gravadas</p>
         </div>
       </section>
@@ -63,6 +63,53 @@
           </p>
         </div>
       </section>
+
+      <!-- Slider part -->
+
+      <section id="slider">
+        <h2 class="text-title-1">
+          Mais de 500 alunos já iniciaram seus estudos
+        </h2>
+        <div class="div-cards">
+          <img
+            id="previousBtn"
+            class="arrow"
+            onclick="turnOfLeft()"
+            src="./assets/previous.svg"
+            alt="previous"
+          />
+          <img
+            id="leonardo"
+            class="card"
+            src="./assets/leonardo.svg"
+            alt="leonardo"
+          />
+          <img
+            id="samantha"
+            class="card"
+            src="./assets/samantha.svg"
+            alt="samantha"
+          />
+
+          <img id="bruna" class="card" src="./assets/bruna.svg" alt="" />
+          <img
+            id="nextBtn"
+            class="arrow"
+            onclick="turnOfRight()"
+            src="./assets/next.svg"
+            alt="next"
+          />
+        </div>
+      </section>
+
+      <section class="div-form"></section>
+      <h2>Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+      <form class="formular" action="">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <button>Acesse a ementa grátis</button>
+      </form>
     </main>
 
     <script src="index.js"></script>
