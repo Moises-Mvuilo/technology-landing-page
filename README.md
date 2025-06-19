@@ -12,7 +12,7 @@ Fazer Landing page para facilitar a captura de dados dos formandos
 ![JAVASCRIPT](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
 <div>
-<img src="./image.png">
+<img src="./assets/image.svg">
 div>
 
 ## Aqui está o link do aplicativo: [https://productof.netlify.app](https://technology-landing-page-chi.vercel.app/)
