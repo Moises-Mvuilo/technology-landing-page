@@ -19,18 +19,10 @@ body {
   max-width: 50rem;
   margin: 0 auto;
   max-width: 90rem;
-
 }
 
 .header {
-<<<<<<< HEAD
   
-=======
- 
->>>>>>> ce792024b580145bff0343c1d478ab9a9b22c57d
-  max-width: 90rem;
-  height: 35rem;
-
   background-image: url("./assets/image.svg");
 }
 
@@ -39,6 +31,8 @@ body {
   height: 3.8rem;
   margin: 3.5rem 3.2rem;
 }
+
+
 
 .title {
   color: #fff;
@@ -54,12 +48,12 @@ body {
 
 .subtitle {
   color: #fff;
-  width: 536px;
-  height: 112px;
-  margin: 2.5rem 172px;
+  width: 33.5rem;
+  height: 7rem;
+  margin: 2.5rem 10.7rem;
   text-align: left;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.3rem;
   line-height: 150%;
   letter-spacing: 0%;
 }
