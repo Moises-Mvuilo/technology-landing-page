@@ -22,7 +22,6 @@ body {
 }
 
 .header {
-  
   background-image: url("./assets/image.svg");
 }
 
@@ -31,8 +30,6 @@ body {
   height: 3.8rem;
   margin: 3.5rem 3.2rem;
 }
-
-
 
 .title {
   color: #fff;
@@ -56,6 +53,34 @@ body {
   font-size: 1.3rem;
   line-height: 150%;
   letter-spacing: 0%;
+}
+
+/*Second block*/
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #eaece5;
+ gap: 7rem;;
+  height: 170px;
+}
+
+.block-1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 293px;
+ 
+}
+
+.text-block {
+  font-size: 20px;
+  font-weight: 400px;
+  letter-spacing: 0%;
+  line-height: 150%;
+  vertical-align: middle;
 }
 
 /* Responsive Styles max-width 767px*/
@@ -85,5 +110,13 @@ body {
     font-size: 1.2rem;
     text-align: center;
     height: 11rem;
+  }
+
+  .block {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+    padding: 1rem;
   }
 }
