@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: initial;
 }
 
 html,
@@ -23,6 +23,7 @@ body {
 
 .header {
   background-image: url("./assets/image.svg");
+  padding: 2.5rem 0 9rem 0;
 }
 
 .logo {
@@ -37,8 +38,7 @@ body {
   height: 7rem;
   margin: 2.5rem 9.8rem;
   text-align: center;
-  letter-spacing: 0%;
-  line-height: 128%;
+
   font-weight: 400;
   font-size: 2.8rem;
 }
@@ -47,7 +47,7 @@ body {
   color: #fff;
   width: 33.5rem;
   height: 7rem;
-  margin: 2.5rem 10.7rem;
+  margin: 2.5rem 10.7rem 0;
   text-align: left;
   font-weight: 400;
   font-size: 1.3rem;
@@ -63,7 +63,7 @@ body {
   justify-content: center;
 
   background-color: #eaece5;
- gap: 7rem;;
+  gap: 9.7rem;
   height: 170px;
 }
 
@@ -72,15 +72,36 @@ body {
   align-items: center;
   gap: 1rem;
   width: 293px;
- 
 }
 
 .text-block {
   font-size: 20px;
   font-weight: 400px;
-  letter-spacing: 0%;
-  line-height: 150%;
+
   vertical-align: middle;
+  color: #122235;
+}
+
+/*video and text*/
+
+.video-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 5rem 10.7rem;
+}
+
+.text-title {
+  color: #247ba0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.text-paragraph {
+  color: #383838;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 /* Responsive Styles max-width 767px*/
@@ -93,7 +114,7 @@ body {
   .logo {
     width: 6rem;
     height: 6rem;
-    margin: 2.5rem 2rem;
+    margin: auto;
   }
 
   .title {
@@ -116,7 +137,16 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
- 
+    height: auto;
     padding: 1rem;
+  }
+
+  .video-and-text {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 2rem;
+    text-align: center;
+    overflow: hidden;
   }
 }
