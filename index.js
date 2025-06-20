@@ -1,9 +1,8 @@
-var btnPrevious = window.document.getElementById("previousBtn");
-var Leonardo = window.document.getElementById("leonardo");
-var Samantha = window.document.getElementById("samantha");
-
-var Bruna = window.document.getElementById("bruna");
-var btnNext = window.document.getElementById("nextBtn");
+let btnPrevious = window.document.getElementById("previousBtn");
+let Leonardo = window.document.getElementById("leonardo");
+let Samantha = window.document.getElementById("samantha");
+let Bruna = window.document.getElementById("bruna");
+let btnNext = window.document.getElementById("nextBtn");
 
 function turnOfRight() {
   Leonardo.style = "display: none;";
@@ -20,3 +19,14 @@ function turnOfLeft() {
   btnPrevious.style = "display: none;";
   btnNext.style = "display: flex;";
 }
+
+let btnSalvar = document.querySelector("#btnSalvar");
+
+btnSalvar.addEventListener("click", function (event) {
+  event.preventDefault();
+
+  let dataCapture = document.querySelector("#dataCapture");
+  console.log(dataCapture.nome.value);
+  console.log(dataCapture.mail.value);
+  console.log(dataCapture.telefone.value);
+});
