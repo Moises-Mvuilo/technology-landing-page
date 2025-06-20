@@ -137,6 +137,7 @@ body {
 
 .arrow:hover {
   transform: translateY(-7px);
+  transition-duration: 0.5s;
 }
 
 /*Form part*/
@@ -196,6 +197,13 @@ input:active {
   letter-spacing: 0%;
   vertical-align: middle;
 }
+
+.data-send:hover {
+background-color: #247ba0;
+transform: translateY(-0.3rem);
+box-shadow: 0 0.2rem 0.3rem #051030;
+}
+
 
 /* Responsive Styles max-width 767px*/
 
