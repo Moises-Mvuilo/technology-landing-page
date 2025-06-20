@@ -2,6 +2,8 @@
 
 ### Acabei de fazer este Landing page de Tecnologia de informação para captura de dados das pessoas que pretendem fazer a formação nesta Escola de Formação Profissional remoto ou presencial
 
+Capturando dados dos formandos via javascript e no servidor online
+
 # Landig page :
 Fazer Landing page para facilitar a captura de dados dos formandos
 
