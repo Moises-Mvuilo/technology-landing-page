@@ -131,13 +131,10 @@ body {
   display: none;
 }
 
-.arrow {
-  cursor: pointer;
-}
-
 .arrow:hover {
-  transform: translateY(-7px);
+  transform: translateY(-0.4rem);
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 /*Form part*/
@@ -199,15 +196,15 @@ input:active {
 }
 
 .data-send:hover {
-background-color: #247ba0;
-transform: translateY(-0.3rem);
-box-shadow: 0 0.2rem 0.3rem #051030;
+  background-color: #247ba0;
+  transition-duration: 0.5s;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.2rem 0.3rem #051030;
 }
-
 
 /* Responsive Styles max-width 767px*/
 
-@media (max-width: 767px) {
+@media (max-width: 47.9rem) {
   .header {
     padding: 1rem;
   }
@@ -285,20 +282,20 @@ box-shadow: 0 0.2rem 0.3rem #051030;
   }
 
   .text-in {
-    width: 300px;
-    height: 53px;
+    width: 18.7rem;
+    height: 3.3rem;
   }
 
   .data-send {
-    width: 200px;
-    height: 53px;
+    width: 12.5rem;
+    height: 3.3rem;
     font-size: 0.8rem;
   }
 }
 
 /*Responsive tablet*/
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 48rem) and (max-width: 63.9rem) {
   .text-block {
     font-size: 1rem;
     font-weight: 25rem;
