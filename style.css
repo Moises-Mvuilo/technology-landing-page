@@ -277,13 +277,14 @@ input:active {
   }
 
   .text-in {
-    width: 380px;
+    width: 300px;
     height: 53px;
   }
 
   .data-send {
-    width: 260px;
+    width: 200px;
     height: 53px;
+    font-size: 0.8rem;
   }
 }
 
