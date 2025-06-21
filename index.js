@@ -26,7 +26,7 @@ btnSalvar.addEventListener("click", function (event) {
   event.preventDefault();
 
   let dataCapture = document.querySelector("#dataCapture");
-  console.log(dataCapture.nome.value);
-  console.log(dataCapture.mail.value);
-  console.log(dataCapture.telefone.value);
+  console.log(dataCapture.Name.value);
+  console.log(dataCapture.Email.value);
+  console.log(dataCapture.Phone.value);
 });
